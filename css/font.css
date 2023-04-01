@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    font-weight: 600;
+    font-style: normal;    
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+        url('../font/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../font/Montserrat-SemiBold.woff') format('woff'),
+        url('../font/Montserrat-SemiBold.ttf') format('ttf'),
+        url('../font/Montserrat-SemiBold.eot') format('eot');
+}
+@font-face {
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-style: normal;    
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../font/Montserrat-Regular.woff2') format('woff2'),
+        url('../font/Montserrat-Regular.woff') format('woff'),
+        url('../font/Montserrat-Regular.ttf') format('ttf'),
+        url('../font/Montserrat-Regular.eot') format('eot');
+}
+@font-face {
+    font-family: 'SpectralSC SemiBold';
+    font-weight: 600;
+    font-style: normal;    
+    src: local('SpectralSC SemiBold'), local('SpectralSC-SemiBold'),
+        url('../font/SpectralSC-SemiBold.woff2') format('woff2'),
+        url('../font/SpectralSC-SemiBold.woff') format('woff'),
+        url('../font/SpectralSC-SemiBold.ttf') format('ttf'),
+        url('../font/SpectralSC-SemiBold.eot') format('eot');
+}
+@font-face {
+    font-family: 'SpectralSC Regular';
+    font-weight: normal;
+    font-style: normal;    
+    src: local('SpectralSC Regular'), local('SpectralSC-Regular'),
+        url('../font/SpectralSC-Regular.woff2') format('woff2'),
+        url('../font/SpectralSC-Regular.woff') format('woff'),
+        url('../font/SpectralSC-Regular.ttf') format('ttf'),
+        url('../font/SpectralSC-Regular.eot') format('eot');
+}
