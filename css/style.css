@@ -45,10 +45,17 @@
     border-radius: 83px;
     margin: 12px auto;
 }
-#login-form input[type=password]::after{
-    content:url(../icon/eye.svg); 
+.login-form__psw-wrap{
+    display: flex;
+    position: relative;    
+}
+.login-form__psw-wrap:after{
+    content:url(../icon/eye.svg);
+    position: absolute; 
     width: 17px;
     height: 13px;
+    right: 22%;
+    top: 40%;
 }
 #login-form input[type=tel]::placeholder, #login-form input[type=password]::placeholder{   
     padding-left: 32px;
@@ -114,6 +121,7 @@
     content:"";
     position: absolute;
     top:85px;
+    right: 98px;
     width: 385px;
     border: 1px solid #BDBDBD;
 }
